@@ -151,6 +151,8 @@ footer {
     margin: 10px;
 }
 
+/* DISCOGRAFIA */
+
 div.box-lista-albuns {
     background-color: var(--cor3);
     border-radius: 5px;
@@ -174,4 +176,41 @@ img.capa-album {
 img.capa-album:hover {
     transform: scale(1.03);
     box-shadow: 6px 6px 30px rgba(0,0,0,0.8);
+}
+
+/* INTEGRANTES */
+
+div.member {
+    display: inline-block;
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    box-shadow: 6px 6px 30px rgba(0,0,0,0.8);
+}
+
+div.img-member img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+div.img-member p {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-avenged);
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+div.member p {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
